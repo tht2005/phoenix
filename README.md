@@ -11,6 +11,9 @@ Simple drag and drop application for X/Wayland written in C++.
 mkdir build && cd build
 cmake ..
 make # or make -j$(nproc) for faster compilation time
+
+# Install
+sudo make install
 ```
 
 # Example
