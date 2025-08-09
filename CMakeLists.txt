@@ -44,3 +44,8 @@ target_link_libraries("${EXEC_NAME}" PRIVATE
         ${CLI11_LIBRARIES}
         ${SPDLOG_LIBRARIES}
 )
+
+### Install ###
+
+install(TARGETS "${EXEC_NAME}" DESTINATION bin)
+
